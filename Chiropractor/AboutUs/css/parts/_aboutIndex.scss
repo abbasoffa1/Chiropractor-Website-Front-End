@@ -1,0 +1,58 @@
+body{
+    box-sizing: border-box;
+    font-family:$main_fonts; 
+}
+
+h1,a,h2,h3,h4,h5,h6{
+    font-family: $title_fonts;
+}
+#header{
+    font-family: $main_fonts;
+    padding: 1px 0px;
+    width: 100%;
+    background-color: $orange_color;
+    .col-custom{
+        margin-top: 10px;
+    }
+    .head{
+        padding: 0;
+        display: inline-block;
+        list-style: none;
+        li{
+
+            &:first-child{
+                &:hover{
+
+                    color:$green_color;
+                }}
+            font-size:$font_size_mini;
+            display: inline;
+            color:$white_color;
+            margin-right: 20px;
+            a{
+                    &:hover{
+                        color:$green_color;
+                    }
+                text-decoration: none;
+                color:$white_color;
+            }
+        }
+    }
+    .social{
+        float: right;
+        padding: 0;
+        display: inline-block;
+        li{
+            list-style: none;
+            display: inline;
+            margin-right: 20px;
+            a{
+                text-decoration: none;
+                color:$white_color;
+                &:hover{
+                    color:$green_color;
+                }
+            }
+        }
+    }
+} 

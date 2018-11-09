@@ -1,0 +1,32 @@
+%btn {
+    border-radius: 10px;
+    width: auto;
+    padding-right: 30px !important;
+    padding-left: 30px !important;
+    height: 45px;
+    line-height: 30px;
+    text-align: center;
+    transition: .2s ease-in-out;
+}
+.btn-orange{
+    @extend %btn;
+    background-color: $orange_color;
+    border-color: $orange_color;
+    color: white;
+    &:hover{
+        background-color:$green_color;
+        border-color: $green_color;
+        color: white !important;
+    }
+}
+.btn-green{
+    @extend %btn;
+    background-color:$green_color;
+    border-color: $green_color;
+    color: white;
+    &:hover{
+        background-color: $orange_color;
+        border-color: $orange_color;
+        color: white !important;
+    }
+}

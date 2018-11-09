@@ -1,0 +1,285 @@
+
+@media only screen and (max-width: 900px) and (min-width: 600px) {
+    #navs{
+        padding: 0 0 100px 0;
+        background-color: $grey_color;
+        .navIcon{
+            color: white;
+            margin-top: 5px;
+            font-size: 30px;
+        }
+    }
+    #navbar #carouselExampleControls{
+        max-height: 500px;
+        .carousel-control-next{
+            z-index: 1;
+        }
+        .slide-text{
+            top: 20%;
+            left: 0%;
+            h2{
+                font-size:50px;
+            }
+            p{
+                font-size: 18px;
+                padding: 0px 180px;
+            }
+            a{
+                position: static;
+            }
+           
+        }
+        .carousel-control-prev,.carousel-control-next{
+            bottom:0%
+        }
+    }
+    #navbar{
+        padding: 0;
+    }
+    #threeDiv{
+        .item{
+            padding: 8px;
+        }
+    }
+    #aboutUs{
+        .itemLeft{
+            h2{
+                font-size:32px;
+            }
+            a{
+                padding: 15px;
+                font-size: 15px;
+            }
+        }
+        .itemCenter{
+            padding: 0;
+        }
+       
+    }
+    #WhatWeOffer{
+        .offerPhotos{
+            .mlAuto{
+                margin: 0 auto !important;
+                margin-top: 20px !important;
+            }
+            
+        }
+       
+    }
+    #MeetOurTeam{
+        padding: 20px 0;
+        .teamText{
+            padding: 0;
+        }
+        .itemTeam{
+            text-align: center;
+            margin-top: 20px;
+            .teamOverlay{
+               display: none;
+              
+            }
+            img{
+                max-width: 100%;
+            }
+        }
+    }
+    #testimonials{
+        height: 100%;
+        .bcg-image{
+            height: auto;
+            position: static;
+        }
+    }
+    #counter{
+        padding: 40px 0;
+        height: auto;
+        .boxes{
+            top:0;
+            .box-counter{
+                margin-top: 20px;
+            }
+        }
+    }
+    #footer{
+        .footerFirstBox{
+            .social-icons{
+                .menu{
+                    margin-top: 0px;
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 600px) {
+  
+    #header{
+        .head{
+            display: block;
+            li{
+                display: block;
+            }
+        }
+        .social{
+            float: left;
+        }
+    }
+    #navbar #carouselExampleControls{
+        position: relative;
+        bottom: 0;
+        max-height: 240px;
+     
+    }
+    #navbar{
+        padding: 0;
+        #navs{
+            background-color: $grey_color;
+            .navIcon{
+                color: white;
+                margin-top: 5px;
+                 font-size: 30px;
+            }
+        }
+    }
+    #carouselCustom{
+        .slide-text{
+            z-index: 5;
+            top: 0%;
+            left: 0%;
+            position: absolute;
+            h2{
+                font-size: 30px;
+            }
+            p{
+                font-size: 14px;
+                padding: 0px 40px;
+            }
+            a{
+                position: relative;
+                left: 30%;
+                margin-top: 0px;
+            }
+        }
+    }
+    #threeDiv{
+        top: 20px;
+        .item{
+            margin: 20px 0;
+        }
+    }
+    #aboutUs{
+        top: 5px;
+        .itemLeft,.itemCenter,.itemRight{
+            text-align: center;
+            margin-top: 10px;
+        }
+        .itemLeft h2{
+            margin-bottom: 25px;
+        }
+    }
+    #WhatWeOffer{
+        padding: 0;
+        .offerPhotos{
+            .card{
+                margin: 0;
+                width: 100% !important;
+            }
+        }
+        
+    }
+    #MeetOurTeam{
+        padding: 20px 0;
+        .teamText{
+            padding: 0;
+        }
+        .itemTeam{
+            text-align: center;
+            margin-top: 20px;
+            .teamOverlay{
+              display: none;
+            }
+        }
+      
+            img{
+                max-width: 100%;
+            }
+
+       
+    }
+    #testimonials{
+       .testItems{
+           margin-top: 25px;
+           line-height: 30px !important;
+       }
+    }
+    #schedule{
+        .bcg-image-schedule{
+            height: 100%;
+        }
+        .scheduleText{
+            padding: 0;
+            h2{
+                font-size:24px;
+            }
+            p{
+                padding: 0;
+            }
+            a{
+                margin-bottom: 10px;
+            }
+        }
+    }
+    #counter{
+        height: 100%;
+        .boxes{
+            padding: 30px 0;
+            top:0;
+            .box-counter{
+                margin: 20px 0;
+            }
+        }
+    }
+    #footer{
+       .footerImg{
+           height: 100%;
+           .footerFirstBox{
+            text-align: left !important;
+            .social-icons{
+             .menu{
+                 padding: 0;
+                 margin: 0 !important;
+                 
+             }
+            }
+            
+         }
+         .footerSecondBox{
+             margin-top: 20px;
+             text-align: left;
+             h3{
+               font-size: 1.55rem;
+             }
+         }
+         .footerThirdBox{
+             margin-top: 20px;
+         }
+         .footerFourthBox{
+             margin-top: 25px;
+             h3{
+                 margin: 0;
+             }
+         }
+       }
+       
+    }
+    #copywrite{
+        .divUlMenu{
+            display: none;
+        }
+        .divCopyRight{
+            font-size: 17px;
+            a{
+                display: none;
+            }
+        }
+    }
+}
